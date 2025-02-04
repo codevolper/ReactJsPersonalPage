@@ -1,0 +1,46 @@
+.main {
+    padding: 2rem 0 0 2rem;
+    width: 100%;
+}
+
+.form-table {
+    display: table;    
+}
+
+.form-row {
+    display: table-row;
+}
+
+.form-column {
+    float: left;
+    display: table-column;
+    padding-right: 2rem;
+}
+
+.element-field{
+    padding-left: 3rem;
+}
+
+.custom-tooltip {
+    padding-top: 1rem;
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bd-white);
+}
+
+p {
+    padding-top: 1rem;
+}
+
+@media (max-width: 811px) {
+    .main {
+        padding: 2rem 0 0 10%;
+    }
+
+    .form-register {
+        display: inline-block;
+    }
+
+    .element-field{
+        padding-left: 0rem;
+    }
+}
